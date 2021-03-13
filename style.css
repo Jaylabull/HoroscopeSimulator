@@ -5,16 +5,27 @@
 
 header
 {
-    border: 1px solid red;
+    border: 1px solid rgb(255,0,0);
     padding: 5rem 10rem 1rem;
 }
 
 .container
 {  
     /* A visual for divs, will remove later */
-    border: 3px solid black;
+    border: 3px solid rgb(0,0,0);
     padding: 5rem 10rem 1rem;
 }
+    .form
+    {
+        /* border-box emphasizes form */
+        border: 1px solid rgb(183,161,255);
+        padding: 2.5rem 5rem;
+    }
+    
+    form h1
+    {
+        text-align: center;
+    }
 
  input[type = text],select
  {
@@ -24,4 +35,9 @@ header
     box-sizing: border-box;
     margin: 8px 0;
     border-radius: 5px;
+ }
+
+ form
+ {
+    padding: 1.5rem 5rem .5rem;
  }
