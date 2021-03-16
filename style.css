@@ -9,35 +9,47 @@ header
     padding: 5rem 10rem 1rem;
 }
 
+body
+{
+    background-size: cover;
+    background-image: url(/Users/jaylabullard/Desktop/Projects/PersonalProjects/ZodiacSimulator/resources/inline_image_preview.jpg);
+}
+
+form h1
+{
+    text-align: center;
+}
+
+input[type = text],select
+{
+width: 100%;
+display: inline-block;
+padding: 1px 2px;
+box-sizing: border-box;
+margin: 8px 0;
+border-radius: 5px;
+}
+
 .container
 {  
     /* A visual for divs, will remove later */
     border: 3px solid rgb(0,0,0);
     padding: 5rem 10rem 1rem;
 }
-    .form
+    
+    .form-box
     {
         /* border-box emphasizes form */
         border: 1px solid rgb(183,161,255);
-        padding: 2.5rem 5rem;
+        background-image: none;
+        background-color: rgb(255,255,255, 0.45);
+        padding: 35px 15px;
+        border-radius: 25px;
+        width: 50%;
     }
     
-    form h1
-    {
-        text-align: center;
-    }
+.github-icon
+{
+    align-items: right;
+}
 
- input[type = text],select
- {
-    width: 100%;
-    display: inline-block;
-    padding: 1px 2px;
-    box-sizing: border-box;
-    margin: 8px 0;
-    border-radius: 5px;
- }
-
- form
- {
-    padding: 1.5rem 5rem .5rem;
- }
