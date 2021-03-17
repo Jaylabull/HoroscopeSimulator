@@ -48,8 +48,11 @@ border-radius: 5px;
         width: 50%;
     }
     
-.github-icon
+div.github-icon
 {
-    align-items: right;
+    text-align: right;
+    size: 5px;
 }
+
+
 
