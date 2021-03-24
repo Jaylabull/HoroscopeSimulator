@@ -1,0 +1,1 @@
+const CHART_API = "https://json.astrologyapi.com/v1/western_horoscope";
