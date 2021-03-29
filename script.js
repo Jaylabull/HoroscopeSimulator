@@ -5,8 +5,12 @@ button.addEventListener('click', function (event) {
 
     event.preventDefault();
 
-    function addContent (data) {
+    function addContent(data) {
         console.log(data);
+        var horoscope = document.createElement('p')
+        horoscope.innerHTML = data.description
+        document.body.appendChild(horoscope)
+
     }
 
 
@@ -16,11 +20,11 @@ button.addEventListener('click', function (event) {
     })
 
 
- .then(reply => reply.json())
+        .then(reply => reply.json())
 
-.then(data => addContent(data))
+        .then(data => addContent(data))
 
-.catch(err => alert('Missing data, enter all information.'))
+        .catch(err => alert('Missing data, enter all information.'))
 
 });
 
