@@ -20,67 +20,49 @@ form h1
     text-align: center;
 }
 
-input[type = text],select
-{
-width: 100%;
-display: inline-block;
-padding: 1px 2px;
-box-sizing: border-box;
-margin: 8px 0;
-border-radius: 5px;
-border: none;
-}
-
-input[type = time]
-{
-    border: none;
-    margin: 3px 0;
+ label
+ {
     display: inline-block;
-    width: 75%;
-    padding: 1px 2px;
-    box-sizing: border-box;
-    border-radius: 5px;
-}
+    padding: 8px 2px;
+    font-size: 18px;
+ }
+ 
+ label.year
+ {
+    display: block;
+ }
 
-input[type = year]
+ input
 {
-    border: none;
-    margin: 3px 0;
+    width: 100%;
+    padding: 5px 2px;
     display: inline-block;
-    width: 75%;
-    padding: 1px 2px;
-    box-sizing: border-box;
     border-radius: 5px;
-}
-
-#year-input
-{
     border: none;
+    box-sizing: border-box;
     margin: 5px 0;
-    display: inline-block;
-    width: 75%;
-    padding: 1px 5px;
-    box-sizing: border-box;
-    border-radius: 5px;
 }
 
 button
 {
     width: 100%;
     background-color: rgb(183,161,255);
-    border-radius: 30px;
+    border-radius: 5px;
     padding: 5px 5px;
     margin: 15px 5px;
     border: none;
     font-weight: bold;
     font-size: 15px;
+    border: rgb(0,0,0, 0.50);
+    border-style: solid;
+    border-width: 1px;
 }
 
 .container
 {  
     /* A visual for divs, will remove later */
     border: 3px solid rgb(0,0,0);
-    padding: 5rem 10rem 5rem;
+    padding: 10rem 10rem 5rem;
 }
     
     .form-box
