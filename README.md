@@ -8,3 +8,5 @@ Day 3: Updated the background for the webpage and adjusted the form padding. Try
 Day 4: Added more input options. Started attmepting to incorporate a Birth Chart API. Also tweaked some CSS properties.
 
 Day 5: Condensed CSS input properties. Still adjusting layout of form. 
+
+Day 6: Removed time aspect in html/css. Added API source in JavaScript. 
