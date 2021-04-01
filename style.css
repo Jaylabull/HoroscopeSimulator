@@ -12,7 +12,7 @@ header
 body
 {
     background-size: cover;
-    background-image: url('ZodiacSimulator/resources/inline_image_preview.jpg');
+    background-image: url('resources/inline_image_preview.jpg');
 }
 
 form h1
