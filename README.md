@@ -11,4 +11,4 @@ Day 5: Condensed CSS input properties. Still adjusting layout of form.
 
 Day 6: Removed time aspect in html/css. Added fetch of API in JavaScript. Myrriame added function and defeined horoscope variable. 
 
-Day 7: Define other variables to be included on page. 
+Day 7: Defined other variables to be included on page. Connect the github icon images with links.
