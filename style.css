@@ -20,6 +20,15 @@ form h1
     text-align: center;
 }
 
+form
+{
+    max-width: 50%;
+    min-width: min-content;
+    width: auto;
+    box-sizing: border-box;
+    display: flexbox;
+}
+
  label
  {
     display: inline-block;
@@ -32,11 +41,10 @@ form h1
     display: block;
  }
 
- input
+ input, option
 {
     width: 100%;
     padding: 5px 2px;
-    display: inline-block;
     border-radius: 5px;
     border: none;
     box-sizing: border-box;
@@ -76,7 +84,26 @@ button
         width: 50%;
         box-shadow: -2px 2px 5px rgb(0,0,0);
     }
+/* Horoscope Card */
+.horoscope-card
+{
+    justify-content: center;
+    display: inline-block;
+    border: 1px solid rgb(183,161,255);
+    border-radius: 25px;
+    background-color: rgb(255,255,255, 0.45);
+    box-shadow: -2px 2px 5px rgb(0,0,0);
+    padding: 35px 15px;
+}
 
+.horoscope-card img
+{
+    border-radius: 100%;
+    width: 48px;
+    height: 48px;
+}
+
+/* Footer */
 footer
 {
     padding: 20px;
