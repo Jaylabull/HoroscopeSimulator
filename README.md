@@ -11,6 +11,8 @@ Day 5: Condensed CSS input properties. Still adjusting layout of form.
 
 Day 6: Removed time aspect in html/css. Added fetch of API in JavaScript. Myrriame added function and defeined horoscope variable. 
 
+
 Day 7: Define other variables to be included on page. 
 
 Day 8: Updated the form and Javascript to pull from zodiac drop down to generate daily horoscopes based on zodiac sign. Also changed footer links for github.
+
