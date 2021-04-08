@@ -1,6 +1,3 @@
-// var API_KEY = "84145c01d8msh2e067ae17a0c02dp164871jsne31ed9b15a09";
-// var API_URL = "https://vedicrishi-horoscope-and-astrology-v1.p.rapidapi.com/horo_chart/D1";
-
 var button = document.getElementById('submit-btn');
 var usersName = document.getElementById('name-input').value
 
@@ -17,11 +14,25 @@ button.addEventListener('click', function (event) {
 
         console.log(data);
 
+
         alert(selectedZodiacValue);
+
+        var dateRange = document.createElement('p')
+        dateRange.innerHTML = data.date_range
+        document.body.appendChild(dateRange)
+
+
         var horoscope = document.createElement('p')
         horoscope.innerHTML = data.description
         document.body.appendChild(horoscope)
 
+        var color = document.createElement('p')
+        color.innerHTML = data.color
+        document.body.appendChild(color)
+
+        var mood = document.createElement('p')
+        mood.innerHTML = data.mood
+        document.body.appendChild(mood)
     }
 
 
@@ -29,7 +40,6 @@ button.addEventListener('click', function (event) {
     fetch(`https://aztro.sameerkumar.website/?sign=${selectedZodiacValue}&day=today`, {
         method: 'POST'
     })
-
 
         .then(reply => reply.json())
 
