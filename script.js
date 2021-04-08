@@ -18,8 +18,11 @@ button.addEventListener('click', function (event) {
         // console.log(data);
 
 
+
         data.forEach(data => {
          var {date_range, description, color, mood} = data;
+
+        // alert(selectedZodiacValue);
 
         const horoscope = document.createElement('div');
         horoscope.classList.add('horoscope-card');
