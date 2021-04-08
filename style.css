@@ -20,12 +20,12 @@ form h1
     text-align: center;
 }
 
-form
+/* form
 {
     max-width: 75%;
     width: auto;
     box-sizing: border-box;
-}
+} */
 
 
  label
@@ -132,7 +132,7 @@ div.footer-icons-right
     align-items: right;
 }
 
-.boxBeGone {
+/* .boxBeGone {
     opacity: 0;
-}
+} */
 
