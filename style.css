@@ -20,6 +20,14 @@ form h1
     text-align: center;
 }
 
+form
+{
+    max-width: 75%;
+    width: auto;
+    box-sizing: border-box;
+}
+
+
  label
  {
     display: inline-block;
@@ -40,7 +48,7 @@ form h1
     border-radius: 5px;
     border: none;
     box-sizing: border-box;
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 button
@@ -53,7 +61,7 @@ button
     border: none;
     font-weight: bold;
     font-size: 15px;
-    border: rgb(0,0,0, 0.50);
+    border: rgba(0, 0, 0, 0.55);
     border-style: solid;
     border-width: 1px;
 }
@@ -94,7 +102,7 @@ footer img
    width: 45px;
    height: 45px; 
    box-sizing: inherit;
-   border-radius: 50%;
+   border-radius: 50%;  
 }
 
 a

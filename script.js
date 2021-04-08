@@ -9,7 +9,6 @@ button.addEventListener('click', function (event) {
     event.preventDefault();
 
 
-
     function addContent(data) {
 
         console.log(data);
@@ -32,7 +31,7 @@ button.addEventListener('click', function (event) {
 
         var mood = document.createElement('p')
         mood.innerHTML = data.mood
-        document.body.appendChild(mood)
+        document.body.appendChild(mood)  
     }
 
 
