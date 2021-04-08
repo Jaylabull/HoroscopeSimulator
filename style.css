@@ -5,7 +5,7 @@
 
 header
 {
-    border: 1px solid rgb(255,0,0);
+    border: 1px solid rgb(3, 3, 3);
     padding: 5rem 10rem 1rem;
 }
 
@@ -19,14 +19,6 @@ form h1
 {
     text-align: center;
 }
-
-form
-{
-    max-width: 75%;
-    width: auto;
-    box-sizing: border-box;
-}
-
 
  label
  {
@@ -132,5 +124,8 @@ div.footer-icons-right
     align-items: right;
 }
 
-
+.boxBeGone {
+  
+    opacity: 0;
+} 
 

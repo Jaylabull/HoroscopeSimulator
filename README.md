@@ -1,5 +1,5 @@
 # ZodiacSimulator
-Day 1: The basic form, where users will input their birth day informtion, has been updated. 
+Day 1: The basic form, where users will input their birth day information, has been updated. 
 
 Day 2: Added CSS to first get a visual of the div elements(which will be removed later) and to stack the form where users will enter in data. 
 
@@ -11,4 +11,8 @@ Day 5: Condensed CSS input properties. Still adjusting layout of form.
 
 Day 6: Removed time aspect in html/css. Added fetch of API in JavaScript. Myrriame added function and defeined horoscope variable. 
 
-Day 7: Defined other variables to be included on page. Connect the github icon images with links.
+
+Day 7: Define other variables to be included on page. 
+
+Day 8: Updated the form and Javascript to pull from zodiac drop down to generate daily horoscopes based on zodiac sign. Also changed footer links for github.
+

@@ -20,7 +20,6 @@ button.addEventListener('click', function (event) {
         dateRange.innerHTML = data.date_range
         document.body.appendChild(dateRange)
 
-
         var horoscope = document.createElement('p')
         horoscope.innerHTML = data.description
         document.body.appendChild(horoscope)
@@ -33,6 +32,7 @@ button.addEventListener('click', function (event) {
         mood.innerHTML = data.mood
         document.body.appendChild(mood)  
     }
+
 
 
 
