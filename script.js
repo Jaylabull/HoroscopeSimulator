@@ -14,7 +14,7 @@ button.addEventListener('click', function (event) {
         console.log(data);
 
 
-        alert(selectedZodiacValue);
+        // alert(selectedZodiacValue);
 
         var dateRange = document.createElement('p')
         dateRange.innerHTML = data.date_range
