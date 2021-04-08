@@ -14,7 +14,8 @@ button.addEventListener('click', function (event) {
 
         console.log(data);
 
-        // alert(selectedZodiacValue);
+
+        alert(selectedZodiacValue);
 
         var dateRange = document.createElement('p')
         dateRange.innerHTML = data.date_range
@@ -39,7 +40,6 @@ button.addEventListener('click', function (event) {
     fetch(`https://aztro.sameerkumar.website/?sign=${selectedZodiacValue}&day=today`, {
         method: 'POST'
     })
-
 
         .then(reply => reply.json())
 
