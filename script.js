@@ -1,7 +1,6 @@
 var button = document.getElementById('submit-btn');
 var usersName = document.getElementById('name-input').value
 
-
 const form = document.getElementById('form');
 
 button.addEventListener('click', function (event) {
@@ -22,7 +21,7 @@ button.addEventListener('click', function (event) {
 
         console.log(data);
 
-
+        // form.style.visibility = 'hidden'
         container.style.visibility = 'visible';
         var horoscopediv = document.createElement('div')
 
@@ -44,12 +43,14 @@ button.addEventListener('click', function (event) {
         horoscopediv.appendChild(horoscope)
 
         var color = document.createElement('h4')
-        color.innerHTML = data.color
+        color.innerHTML = `Color: ${data.color}`
         horoscopediv.appendChild(color)
 
         var mood = document.createElement('h4')
-        mood.innerHTML = data.mood
+        mood.innerHTML = `Mood: ${data.mood}`
         horoscopediv.appendChild(mood)
+
+        // sign.style.backgroundColor = data.color;
 
         container.appendChild(horoscopediv)
 
