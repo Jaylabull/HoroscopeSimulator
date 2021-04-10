@@ -13,12 +13,9 @@
 </head>
 
 <body>
-    <header>
-        <!-- add image here  -->
-    </header>
 
     <div class=container>
-        <form class="form-box" action="" method="POST" id="form">
+        <form class="form-box" action="" method="POST" id="form" style = "display: block;">
 
             <h1>Find out Your Horoscope Below!</h1>
             <label for="Name"> Name </label>
@@ -39,27 +36,14 @@
                 <option value="Sagittarius">Sagittarius (Nov. 22nd - Dec. 21rst)</option>
 
             </select>
-            <button type="submit" id="submit-btn"> Submit </button>
-
+            <button onclick= "replace();return false" type="submit" id="submit-btn"> Submit </button>
+        </form>
     </div>
-    </form>
 
-    </div>
-    <div class="container" id="container">
-        <div class="horoscope-card" id='horoscope-card' style="visibility: hidden;">
-            <!-- <img src="resources/Zodiac_practice_pic.jpeg" alt="zodiac sign image">
-            <h2 class="zodiac-sign">Zodiac sign</h2>
-            <h2 class="date_range">june 4</h2>
-            <h4 class="horoscope">Horoscope</h4>
-            <p class="horoscopeinfo">*API horoscope here insert text here*</p>
-            <h4 class="color">Today's Color</h4>
-            <p class="color">*API color here*</p>
-            <h4 class="mood">Today's Mood</h4>
-            <p class="todaysmood">mood</p> -->
+        <div class="container" id="container">
+            <div class="horoscope-card" id='horoscope-card' style="display: none;">
+            </div>
         </div>
-    </div>
-
-    </div>
 
 
     <footer>
@@ -87,7 +71,12 @@
 
         </div>
     </footer>
-
+    <script>
+        function replace(){
+        document.getElementById('form').style.display="none";
+        document.getElementById('horoscope-card').style.display="block";
+    }
+    </script>
     <script src="script.js"></script>
 </body>
 
