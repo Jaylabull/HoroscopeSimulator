@@ -19,10 +19,8 @@ button.addEventListener('click', function (event) {
     function addContent(data) {
 
 
-        console.log(data);
-
-        // form.style.visibility = 'hidden'
-        container.style.visibility = 'visible';
+        // console.log(data);
+   
         var horoscopediv = document.createElement('div')
 
         // alert(selectedZodiacValue);
@@ -51,12 +49,12 @@ button.addEventListener('click', function (event) {
         horoscopediv.appendChild(mood)
 
         // sign.style.backgroundColor = data.color;
-
+    
         container.appendChild(horoscopediv)
 
+
+
     }
-
-
 
     fetch(`https://aztro.sameerkumar.website/?sign=${selectedZodiacValue}&day=today`, {
         method: 'POST'
