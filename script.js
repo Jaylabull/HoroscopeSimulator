@@ -24,6 +24,10 @@ button.addEventListener('click', function (event) {
         var horoscopediv = document.createElement('div')
 
         // alert(selectedZodiacValue);
+        var name = document.createElement('h1')
+        name.innerHTML = `${usersName} horoscope for today!`
+        horoscopediv.appendChild(name)
+
         var image = document.createElement('img')
         image.src = 'resources/Zodiac_practice_pic.jpeg'
         horoscopediv.appendChild(image)
@@ -52,9 +56,50 @@ button.addEventListener('click', function (event) {
     
         container.appendChild(horoscopediv)
 
-
-
     }
+
+    // function signPic () {
+    //   switch (selectedZodiacValue) {
+    //     case 'Capricorn (Dec. 22nd - Jan. 19th)':
+    //       console.log(image.scr = 'resources/Capricorn.jpeg') 
+    //         break;
+    //     case 'Aquarius (Jan. 20th - Feb. 18th)':
+    //         console.log(image.scr = 'resources/Aquarius.jpeg')
+    //         break;
+    //     case 'Pisces (Feb. 19th - March 20th)':
+    //         console.log(image.scr = 'resources/Pisces.jpeg')
+    //         break;
+    //     case 'Aries (Mar. 21st - Apr. 19th)':
+    //         console.log(image.scr = 'resources/Aries.jpeg')
+    //         break;
+    //     case 'Taurus (Apr. 20th - May 20th)':
+    //         console.log(image.scr = 'resources/Taurus.jpeg')
+    //         break;
+    //     case 'Gemini (May 21rst - Jun. 20th)':
+    //         console.log(image.scr = 'resources/Gemini.jpeg')
+    //         break;
+    //     case 'Cancer (Jun. 21rst - Jul. 22nd)':
+    //         console.log(image.scr = 'resources/Cancer.jpeg')
+    //         break;
+    //     case 'Leo (Jul. 23rd - Aug. 22nd)':
+    //         console.log(image.scr = 'resources/Leo.jpeg')
+    //         break;        
+    //     case 'Virgo (Aug. 23rd - Sept. 22nd)':
+    //         console.log(image.scr = 'resources/Virgo.jpeg')
+    //         break;
+    //     case 'Libra (Sept. 23rd - Oct. 22nd)':
+    //         console.log(image.scr = 'resources/Libra.jpeg')
+    //         break;
+    //     case 'Scorpio (Oct. 23rd - Nov. 21st)':
+    //         console.log(image.scr = 'resources/Scorpio.jpeg')
+    //         break;
+    //     case 'Sagittarius (Nov. 22nd - Dec. 21st)':
+    //         console.log(image.scr = 'resources/Sagitarius.jpeg')
+    //         break;
+    //     default: console.log(image.scr = 'resources/Zodiac_practice_pic.jpeg')
+    //         break;
+    //   }
+    // };
 
     fetch(`https://aztro.sameerkumar.website/?sign=${selectedZodiacValue}&day=today`, {
         method: 'POST'
