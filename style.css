@@ -1,23 +1,33 @@
 *{
     margin: auto;
-    font-family: 'Playfair Display', serif;;
+    /* font-family: 'Playfair Display', serif;; */
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 header
 {
-    border: 1px solid rgb(3, 3, 3);
+    /* border: 1px solid rgb(3, 3, 3); */
     padding: 5rem 10rem 1rem;
 }
 
 body
 {
     background-size: cover;
-    background-image: url('resources/inline_image_preview.jpg');
+    background-image: url('resources/inline_image_preview.gif');
 }
 
 form h1
 {
     text-align: center;
+}
+
+form
+{
+    max-width: 50%;
+    min-width: min-content;
+    width: auto;
+    box-sizing: border-box;
+    display: flexbox;
 }
 
  label
@@ -32,11 +42,10 @@ form h1
     display: block;
  }
 
- input
+ input, option
 {
     width: 100%;
     padding: 5px 2px;
-    display: inline-block;
     border-radius: 5px;
     border: none;
     box-sizing: border-box;
@@ -61,7 +70,7 @@ button
 .container
 {  
     /* A visual for divs, will remove later */
-    border: 3px solid rgb(0,0,0);
+    /* border: 3px solid rgb(0,0,0); */
     padding: 10rem 10rem 5rem;
 }
     
@@ -72,11 +81,32 @@ button
         background-image: none;
         background-color: rgb(255,255,255, 0.45);
         padding: 35px 15px;
-        border-radius: 25px;
+        border-radius: 18px;
         width: 50%;
         box-shadow: -2px 2px 5px rgb(0,0,0);
     }
+/* Horoscope Card */
+.horoscope-card
+{
+    justify-content: center;
+    display: inline-block;
+    border: 1px solid rgb(183,161,255);
+    border-radius: 18px;
+    background-color: rgb(255,255,255, 0.45);
+    box-shadow: -2px 2px 5px rgb(0,0,0);
+    padding: 35px 15px;
+    width: 50%;
+    /* opacity: 0.7; */
+}
 
+.horoscope-card img
+{
+    border-radius: 100%;
+    width: 48px;
+    height: 48px;
+}
+
+/* Footer */
 footer
 {
     padding: 20px;
