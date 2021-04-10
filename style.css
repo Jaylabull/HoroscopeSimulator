@@ -69,8 +69,7 @@ button
 
 .container
 {  
-    /* A visual for divs, will remove later */
-    /* border: 3px solid rgb(0,0,0); */
+
     padding: 10rem 10rem 5rem;
 }
     
@@ -78,25 +77,24 @@ button
     {
         /* border-box emphasizes form */
         border: 1px solid rgb(183,161,255);
+        border-radius: 18px;
         background-image: none;
         background-color: rgb(255,255,255, 0.45);
-        padding: 35px 15px;
-        border-radius: 18px;
-        width: 50%;
         box-shadow: -2px 2px 5px rgb(0,0,0);
+        padding: 35px 15px;
+        width: 50%;
     }
+
 /* Horoscope Card */
-.horoscope-card
+.horoscope-card 
 {
-    justify-content: center;
-    display: inline-block;
     border: 1px solid rgb(183,161,255);
     border-radius: 18px;
     background-color: rgb(255,255,255, 0.45);
     box-shadow: -2px 2px 5px rgb(0,0,0);
     padding: 35px 15px;
     width: 50%;
-    /* opacity: 0.7; */
+    text-align: center;
 }
 
 .horoscope-card img
