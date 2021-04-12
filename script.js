@@ -24,14 +24,14 @@ button.addEventListener('click', function (event) {
 
         var horoscopediv = document.createElement('div')
 
-        var sign = document.createElement('h2')
+        var sign = document.createElement('h1')
         sign.innerHTML = selectedZodiacValue
         horoscopediv.appendChild(sign)
 
         var signarg = selectedZodiacValue
 
         // alert(selectedZodiacValue);
-        var name = document.createElement('h1')
+        var name = document.createElement('h3')
         name.innerHTML = `${usersName}'s horoscope for today!`
         horoscopediv.appendChild(name)
 
