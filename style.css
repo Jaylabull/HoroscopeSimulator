@@ -14,6 +14,7 @@ body
 {
     background-size: cover;
     background-image: url('resources/inline_image_preview.gif');
+    background-repeat: no-repeat;
 }
 
 form h1
@@ -70,7 +71,7 @@ button
 .container
 {  
 
-    padding: 10rem 10rem 5rem;
+    padding: 6rem 10rem 2rem;
 }
     
     .form-box
