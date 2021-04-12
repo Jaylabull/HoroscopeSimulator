@@ -108,8 +108,9 @@ button
 /* Footer */
 footer
 {
-    padding: 20px;
+    /* padding: 100px; */
     display: inline-flexbox;
+    margin-bottom: 20%;
 }
 
 h5.footer

@@ -21,3 +21,5 @@ Day 9: Created a Horoscope car that will appear once user fill in name and selec
 Day 10: Fixed bug fixes in JS to display API content in a styled <div> element 
 
 Day 11: Removed unnecessary div elements. Changed the visiablity of the form when clciked. Trying to replace form with generated div.
+
+Day 12: We successfully made an if statement that changes the image based on the users zodiac sign and some CSS changes.
