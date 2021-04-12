@@ -23,19 +23,11 @@ button.addEventListener('click', function (event) {
         // console.log(data);
 
         var horoscopediv = document.createElement('div')
-<<<<<<< HEAD
 
         var sign = document.createElement('h1')
         sign.innerHTML = selectedZodiacValue
         horoscopediv.appendChild(sign)
 
-=======
-
-        var sign = document.createElement('h1')
-        sign.innerHTML = selectedZodiacValue
-        horoscopediv.appendChild(sign)
-
->>>>>>> a5a75f0ea3a4794fcf8fa4dafe866c2e38168c87
         var signarg = selectedZodiacValue
 
         // alert(selectedZodiacValue);
@@ -145,19 +137,11 @@ button.addEventListener('click', function (event) {
         var mood = document.createElement('h4')
         mood.innerHTML = `Mood: ${data.mood}`
         horoscopediv.appendChild(mood)
-<<<<<<< HEAD
 
         // sign.style.backgroundColor = data.color;
 
         container.appendChild(horoscopediv)
 
-=======
-
-        // sign.style.backgroundColor = data.color;
-
-        container.appendChild(horoscopediv)
-
->>>>>>> a5a75f0ea3a4794fcf8fa4dafe866c2e38168c87
     }
 
 
