@@ -15,7 +15,7 @@
 <body>
 
     <div class=container>
-        <form class="form-box" action="" method="POST" id="form" style = "display: block;">
+        <form class="form-box" action="" method="POST" id="form" style="display: block;">
 
             <h1>Find out Your Horoscope Below!</h1>
             <label for="Name"> Name </label>
@@ -23,7 +23,7 @@
             <label for="Zodiac">Choose your zodiac sign </label>
             <select id="zodiac">
                 <option value="Capricorn">Capricorn (Dec. 22nd - Jan. 19th)</option>
-                <option value="aquarius">Aquarius (Jan. 20th - Feb. 18th)</option>
+                <option value="Aquarius">Aquarius (Jan. 20th - Feb. 18th)</option>
                 <option value="Pisces">Pisces (Feb. 19th - Mar. 20th)</option>
                 <option value="Aries">Aries (Mar. 21st - Apr. 19th)</option>
                 <option value="Taurus">Taurus (Apr. 20th - May 20th)</option>
@@ -36,14 +36,14 @@
                 <option value="Sagittarius">Sagittarius (Nov. 22nd - Dec. 21st)</option>
 
             </select>
-            <button onclick= "replace();return false" type="submit" id="submit-btn"> Submit </button>
+            <button onclick="replace();return false" type="submit" id="submit-btn"> Submit </button>
         </form>
     </div>
 
-        <div class="container" id="container">
-            <div class="horoscope-card" id='horoscope-card' style="display: none;">
-            </div>
+    <div class="container" id="container">
+        <div class="horoscope-card" id='horoscope-card' style="display: none;">
         </div>
+    </div>
 
 
     <footer>
@@ -72,10 +72,10 @@
         </div>
     </footer>
     <script>
-        function replace(){
-        document.getElementById('form').style.display="none";
-        document.getElementById('horoscope-card').style.display="block";
-    }
+        function replace() {
+            document.getElementById('form').style.display = "none";
+            document.getElementById('horoscope-card').style.display = "block";
+        }
     </script>
     <script src="script.js"></script>
 </body>

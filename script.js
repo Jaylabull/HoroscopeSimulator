@@ -1,5 +1,5 @@
 var button = document.getElementById('submit-btn');
-var usersName = document.getElementById('name-input').value
+// var usersName = document.getElementById('name-input').value
 
 const form = document.getElementById('form');
 
@@ -7,6 +7,7 @@ button.addEventListener('click', function (event) {
     var selectZodiac = document.querySelector('#zodiac');
     var selectedZodiacValue = selectZodiac.options[selectZodiac.selectedIndex].value;
     const container = document.getElementById('horoscope-card');
+    var usersName = document.getElementById('name-input').value
 
     event.preventDefault();
 
@@ -20,71 +21,106 @@ button.addEventListener('click', function (event) {
 
 
         // console.log(data);
-   
+
         var horoscopediv = document.createElement('div')
+
+        var sign = document.createElement('h2')
+        sign.innerHTML = selectedZodiacValue
+        horoscopediv.appendChild(sign)
+
+        var signarg = selectedZodiacValue
 
         // alert(selectedZodiacValue);
         var name = document.createElement('h1')
-        name.innerHTML = `${usersName} horoscope for today!`
+        name.innerHTML = `${usersName}'s horoscope for today!`
         horoscopediv.appendChild(name)
 
         var image = document.createElement('img')
         image.src = 'resources/Zodiac_practice_pic.jpeg'
         horoscopediv.appendChild(image)
-        // var pic = function signPic(img) {
-        //     var image = document.createElement('img')
+
+        if (signarg === 'Capricorn') {
+            image.src = 'resources/Capricorn.jpeg'
+        } else if (signarg === 'Aquarius') {
+            image.src = 'resources/Aquarius.jpeg'
+        } else if (signarg === 'Pisces') {
+            image.src = 'resources/Pisces.jpeg'
+        } else if (signarg === 'Aries') {
+            image.src = 'resources/Aries.jpeg'
+        } else if (signarg === 'Taurus') {
+            image.src = 'resources/Taurus.jpeg'
+        } else if (signarg === 'Gemini') {
+            image.src = 'resources/Gemini.jpeg'
+        } else if (signarg === 'Cancer') {
+            image.src = 'resources/Cancer.jpeg'
+        } else if (signarg === 'Leo') {
+            image.src = 'resources/Leo.jpeg'
+        } else if (signarg === 'Virgo') {
+            image.src = 'resources/Virgo.jpeg'
+        } else if (signarg === 'Libra') {
+            image.src = 'resources/Libra.jpeg'
+        } else if (signarg === 'Scorpio') {
+            image.src = 'resources/Scorpio.jpeg'
+        } else if (signarg === 'Sagittarius') {
+            image.src = 'resources/Sagittarius.jpeg'
+        } else {
+            image.src = 'resources/Zodiac_practice_pic.jpeg'
+        }
+
+        // var signPic = function (img) {
+
         //     image.src = img;
         //     horoscopediv.appendChild(pic);
-        
-        //     var checkSign = function (sign) {
-        //         switch (sign) {
-        //             case 'Capricorn (Dec. 22nd - Jan. 19th)':
-        //               signPic('resources/Capricorn.jpeg') 
+
+        //     var checkSign = function (signarg) {
+        //         switch (signarg) {
+        //             case 'Capricorn':
+        //                 signPic('resources/Capricorn.jpeg')
         //                 break;
-        //             case 'Aquarius (Jan. 20th - Feb. 18th)':
+        //             case 'Aquarius':
         //                 signPic('resources/Aquarius.jpeg')
         //                 break;
-        //             case 'Pisces (Feb. 19th - March 20th)':
+        //             case 'Pisces':
         //                 signPic('resources/Pisces.jpeg')
         //                 break;
-        //             case 'Aries (Mar. 21st - Apr. 19th)':
-        //                signPic('resources/Aries.jpeg')
+        //             case 'Aries':
+        //                 signPic('resources/Aries.jpeg')
         //                 break;
-        //             case 'Taurus (Apr. 20th - May 20th)':
+        //             case 'Taurus':
         //                 signPic('resources/Taurus.jpeg')
         //                 break;
-        //             case 'Gemini (May 21rst - Jun. 20th)':
+        //             case 'Gemini':
         //                 signPic('resources/Gemini.jpeg')
         //                 break;
-        //             case 'Cancer (Jun. 21rst - Jul. 22nd)':
+        //             case 'Cancer':
         //                 signPic('resources/Cancer.jpeg')
         //                 break;
-        //             case 'Leo (Jul. 23rd - Aug. 22nd)':
+        //             case 'Leo':
         //                 signPic('resources/Leo.jpeg')
-        //                 break;        
-        //             case 'Virgo (Aug. 23rd - Sept. 22nd)':
+        //                 break;
+        //             case 'Virgo':
         //                 signPic('resources/Virgo.jpeg')
         //                 break;
-        //             case 'Libra (Sept. 23rd - Oct. 22nd)':
+        //             case 'Libra':
         //                 signPic('resources/Libra.jpeg')
         //                 break;
-        //             case 'Scorpio (Oct. 23rd - Nov. 21st)':
+        //             case 'Scorpio':
         //                 signPic('resources/Scorpio.jpeg')
         //                 break;
-        //             case 'Sagittarius (Nov. 22nd - Dec. 21st)':
+        //             case 'Sagittarius':
         //                 signPic('resources/Sagitarius.jpeg')
         //                 break;
         //             default: signPic('resources/Zodiac_practice_pic.jpeg')
         //                 break;
-        //     }
+        //         }
         //     };
-        //       checkSign(sign);
+        //     checkSign(signarg);
         // };
-             
-     
-        var sign = document.createElement('h2')
-        sign.innerHTML = selectedZodiacValue
-        horoscopediv.appendChild(sign)
+
+
+        // var sign = document.createElement('h2')
+        // sign.innerHTML = selectedZodiacValue
+        // horoscopediv.appendChild(sign)
 
         var dateRange = document.createElement('h2')
         dateRange.innerHTML = data.date_range
@@ -103,7 +139,7 @@ button.addEventListener('click', function (event) {
         horoscopediv.appendChild(mood)
 
         // sign.style.backgroundColor = data.color;
-    
+
         container.appendChild(horoscopediv)
 
     }
