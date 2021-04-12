@@ -15,11 +15,18 @@ Day 7: Define other variables to be included on page.
 
 Day 8: Updated the form and Javascript to pull from zodiac drop down to generate daily horoscopes based on zodiac sign. Also changed footer links for github.
 
+<<<<<<< HEAD
 Day 9: Created a Horoscope car that will appear once user fill in name and selects zodiac sign. CSS updates.
 
 Day 10: Fixed bug fixes in JS to display API content in a styled
 
 element
+=======
+Day 9: Created a Horoscope car that will appear once user fill in name and selects zodiac sign. CSS updates. 
+
+Day 10: Fixed bug fixes in JS to display API content in a styled <div> element 
+
+>>>>>>> a5a75f0ea3a4794fcf8fa4dafe866c2e38168c87
 Day 11: Removed unnecessary div elements. Changed the visiablity of the form when clciked. Trying to replace form with generated div.
 
 Day 12: We successfully made an if statement that changes the image based on the users zodiac sign and some CSS changes.
