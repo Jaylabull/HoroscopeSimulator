@@ -1,19 +1,18 @@
 *{
     margin: auto;
-    /* font-family: 'Playfair Display', serif;; */
     font-family: 'Barlow Condensed', sans-serif;
 }
 
 header
 {
-    /* border: 1px solid rgb(3, 3, 3); */
-    padding: 5rem 10rem 1rem;
+    padding: 10rem 10rem 1rem;
 }
 
 body
 {
     background-size: cover;
     background-image: url('resources/inline_image_preview.gif');
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -70,8 +69,10 @@ button
 
 .container
 {  
-
-    padding: 6rem 10rem 2rem;
+    margin-top: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* padding: 5rem 5rem 10rem; */
 }
     
     .form-box
@@ -96,6 +97,7 @@ button
     padding: 35px 15px;
     width: 50%;
     text-align: center;
+    line-height: 1.5;
 }
 
 .horoscope-card img
@@ -108,9 +110,8 @@ button
 /* Footer */
 footer
 {
-    /* padding: 100px; */
     display: inline-flexbox;
-    margin-bottom: 20%;
+    height: 300px;
 }
 
 h5.footer
@@ -136,7 +137,9 @@ p
 {
     font-weight: bold;
     font-size: 18px;
+    padding-left: 20px;
 }
+
 div.footer-icons-right
 {
     margin: 15px 15px;
@@ -146,7 +149,8 @@ div.footer-icons-right
 
 .icons
 {
-    position: relative;
+    position: absolute;
+    /* position: relative; */
     display: block;
     box-sizing: content-box;
     width: 18px;
