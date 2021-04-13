@@ -112,6 +112,8 @@ footer
 {
     display: inline-flexbox;
     height: 300px;
+    margin-bottom: 75px;
+    margin-top: 115px;
 }
 
 h5.footer
