@@ -25,7 +25,7 @@ button.addEventListener('click', function (event) {
         var horoscopediv = document.createElement('div')
 
         var sign = document.createElement('h1')
-        sign.innerHTML = selectedZodiacValue
+        sign.innerHTML = selectedZodiacValue.toUpperCase()
         horoscopediv.appendChild(sign)
 
         var signarg = selectedZodiacValue
