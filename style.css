@@ -13,6 +13,7 @@ body
     background-size: cover;
     background-image: url('resources/inline_image_preview.gif');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 form h1
