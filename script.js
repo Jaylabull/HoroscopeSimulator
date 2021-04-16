@@ -41,28 +41,76 @@ button.addEventListener('click', function (event) {
 
         if (signarg === 'Capricorn') {
             image.src = 'resources/Capricorn.jpeg'
+            container.style.backgroundColor = 'rgba(108, 253, 51, 0.200)'
+            container.style.border = '1px solid green'
+            document.body.style.backgroundImage = "url('resources/galax.gif')"
+
         } else if (signarg === 'Aquarius') {
             image.src = 'resources/Aquarius.jpeg'
+            container.style.backgroundColor = 'rgba(255, 255, 255, 0.616)'
+            container.style.border = '1px solid white'
+            document.body.style.backgroundImage = "url('resources/galax.gif')"
+
         } else if (signarg === 'Pisces') {
             image.src = 'resources/Pisces.jpeg'
+            container.style.backgroundColor = 'rgba(59, 112, 226, 0.550)'
+            container.style.border = '1px solid babyblue'
+            document.body.style.backgroundImage = "url('resources/galax.gif')"
+
         } else if (signarg === 'Aries') {
             image.src = 'resources/Aries.jpeg'
+            container.style.backgroundColor = 'rgba(252, 193, 31, 0.450)'
+            container.style.border = '1px solid orange'
+            document.body.style.backgroundImage = "url('resources/galax.gif')"
+
         } else if (signarg === 'Taurus') {
             image.src = 'resources/Taurus.jpeg'
+            container.style.backgroundColor = 'rgba(108, 253, 51, 0.200)'
+            container.style.border = '1px solid green'
+            document.body.style.backgroundImage = "url('resources/galax.gif')"
+
         } else if (signarg === 'Gemini') {
             image.src = 'resources/Gemini.jpeg'
+            container.style.backgroundColor = 'rgba(255, 255, 255, 0.616)'
+            container.style.border = '1px solid white'
+            document.body.style.backgroundImage = "url('resources/galax.gif')"
+
         } else if (signarg === 'Cancer') {
             image.src = 'resources/Cancer.jpeg'
+            container.style.backgroundColor = 'rgba(59, 112, 226, 0.550)'
+            container.style.border = '1px solid skyblue'
+            document.body.style.backgroundImage = "url('resources/galax.gif')"
+
         } else if (signarg === 'Leo') {
             image.src = 'resources/Leo.jpeg'
+            container.style.backgroundColor = 'rgba(252, 193, 31, 0.450)'
+            container.style.border = '1px solid orange'
+            document.body.style.backgroundImage = "url('resources/galax.gif')"
+
         } else if (signarg === 'Virgo') {
             image.src = 'resources/Virgo.jpeg'
+            container.style.backgroundColor = 'rgba(108, 253, 51, 0.200)'
+            container.style.border = '1px solid green'
+            document.body.style.backgroundImage = "url('resources/galax.gif')"
+
         } else if (signarg === 'Libra') {
             image.src = 'resources/Libra.jpeg'
+            container.style.backgroundColor = 'rgba(255, 255, 255, 0.616)'
+            container.style.border = '1px solid white'
+            document.body.style.backgroundImage = "url('resources/galax.gif')"
+
         } else if (signarg === 'Scorpio') {
             image.src = 'resources/Scorpio.jpeg'
+            container.style.backgroundColor = 'rgba(59, 112, 226, 0.550)'
+            container.style.border = '1px solid skyblue'
+            document.body.style.backgroundImage = "url('resources/galax.gif')"
+
         } else if (signarg === 'Sagittarius') {
             image.src = 'resources/Sagittarius.jpeg'
+            container.style.backgroundColor = 'rgba(252, 193, 31, 0.450)'
+            container.style.border = '1px solid orange'
+            document.body.style.backgroundImage = "url('resources/galax.gif')"
+
         } else {
             image.src = 'resources/Zodiac_practice_pic.jpeg'
         }
