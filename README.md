@@ -1,4 +1,11 @@
 # HoroscopeSimulator
+
+Horoscopes are all the rage now. Want to check out your horoscope that includes the days mood and color? Check it out here! https://horoscope-simulator.netlify.app/
+
+
+
+The day by day of how this app was created: 
+
 Day 1: The basic form, where users will input their birth day information, has been updated.
 
 Day 2: Added CSS to first get a visual of the div elements(which will be removed later) and to stack the form where users will enter in data.
